@@ -1,0 +1,144 @@
+/* Reset styles */
+* {
+    margin: 0;
+    /* outline: 1px solid black; */
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  /* Table styles */
+  table {
+  max-width: 100%;
+  margin: 4rem ;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  table button{
+    margin:.5rem;
+  }
+ .tbl{
+  background: #523d3d96;
+  padding: 2rem 10rem;
+ }
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  .red{
+    background-color: red;
+    color:white;
+  }
+  th,
+  td {
+    padding: 0;
+    max-height: 3rem;
+    max-width: 10rem;
+    overflow-y: scroll;
+    margin: 0.8rem;
+    text-align: left;
+  }
+  th:first-child,
+  td:first-child {
+    padding-left: 20px;
+  }
+  
+  th:last-child,
+  td:last-child {
+    padding-right: 20px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    background-color: #445968;
+  }
+
+
+
+
+  .comment table {
+    max-width: 800px;
+    margin: 50px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .comment th,
+  .comment  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .comment th:first-child,
+  .comment td:first-child {
+    padding-left: 20px;
+  }
+  
+  .comment th:last-child,
+  .comment td:last-child {
+    padding-right: 20px;
+  }
+  
+  .comment td:last-child {
+    width: 70%;
+  }
+  
+  .comment tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+  }
+#advices{
+  display:none;
+}
+#acomment{
+  display:none;
+}
+.section{
+  display: grid;
+  gap: 1rem;
+}
+
+.heading{
+  text-align: center;
+  background-color: #1d151596;
+  color: white;
+  padding: 1rem auto;
+}

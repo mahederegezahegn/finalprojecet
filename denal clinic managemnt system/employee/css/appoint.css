@@ -1,0 +1,88 @@
+/* Style for the appointment form */
+main {
+	max-width: 800px;
+	margin: 0 auto ;
+	 padding:  0 20px;
+	 /* overflow-y: scroll; */
+  }
+  
+  h1 {
+	text-align: center;
+	font-size: 36px;
+  }
+  
+  form {
+	/* From https://css.glass */
+background: rgba(44, 138, 150, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.1px);
+-webkit-backdrop-filter: blur(10.1px);
+border: 1px solid rgba(44, 138, 150, 0.69);
+	display: flex;
+	padding: 20px;
+ 
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+  }
+  
+  label {
+	font-size: 18px;
+	margin-bottom: 10px;
+	flex-basis: 100%;
+  }
+  .msg{
+	background-color: red;
+	margin: .5rem 1rem;
+	padding: 1rem 4rem;
+	border-radius: 4rem;
+	width: 100%;
+	text-align: center;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"],
+  select {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
+  
+   /*Media queries for responsive design */
+  @media screen and (max-width: 768px) {
+	form {
+	  flex-direction: column;
+	}
+	
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="date"],
+	input[type="time"],
+	select {
+	  width: 100%;
+	  margin-bottom: 10px;
+	}
+  }
+  

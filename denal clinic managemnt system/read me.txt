@@ -1,0 +1,30 @@
+Database Name : - test.sql
+
+
+to get to admin page
+http://localhost/denal%20clinic%20managemnt%20system/admin/adlogin.php
+use this url
+user name : - senir@gmail.com
+password  : - semiribrahim
+
+
+
+to use doctor or receptionist
+
+http://localhost/denal%20clinic%20managemnt%20system/employee/
+use this url
+for doctor
+user name:lelidagezahegn@gmail.com
+password:121212
+
+for receptionist
+
+user name:tigist@gmail.com
+password:tigist1212
+
+use this to user 
+http://localhost/denal%20clinic%20managemnt%20system/
+create account and enjoy
+
+
+ENJOY :D :D :D :D

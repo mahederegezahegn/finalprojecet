@@ -1,0 +1,136 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background: rgb(46,145,188);
+background: linear-gradient(0deg, rgba(46,145,188,1) 4%, rgba(95,124,171,1) 11%);
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    background: rgb(44,67,154);
+    background: linear-gradient(0deg, rgba(44,67,154,1) 0%, rgba(13,165,196,1) 55%, rgba(11,170,198,1) 62%);    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+  }
+  
+  aside ul {
+    list-style: none;
+  }
+  
+  aside li {
+    margin-bottom: 10px;
+  }
+  
+  /* Main content styles */
+  main {
+    margin-top: 60px;
+    max-width: 1200px;
+    margin: 60px auto 0 auto;
+    display: flex;
+  }
+  
+  section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+
+  
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }

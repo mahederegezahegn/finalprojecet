@@ -1,0 +1,239 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out .4s;
+    animation:move 1s ease-in-out;
+  }
+  @keyframes move {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  *{
+    text-decoration:none !important;
+    text-transform:capitalize;
+    box-sizing:border-box;
+    margin:0;padding:0;
+}
+*::-webkit-scrollbar{
+    height:.5rem;
+    width:1rem;
+}
+*::-webkit-scrollbar-track{
+    background-color:transparent;
+}
+*::-webkit-scrollbar-thumb{
+    background-color:var(--blue);
+}
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-image: url("images/hall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow-y: hidden; */
+    color: #333;
+    /* height: 100%; */
+  }
+  span{
+    color:#00b8b8;
+    font-size: 2rem;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #00b8b8;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+padding: 20px;
+color: #fff;
+position: relative;
+margin: 0 0 1rem 0;
+
+  }
+  .nav{
+    /* border-radius:4rem ;
+     */
+     width: 100%;
+    margin: 2rem 0 0 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 2rem 0;
+    z-index: 2;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.3)
+  }
+  .nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .nav li{
+    margin-right: 20px;
+    position: relative;
+  }
+  .nav a{
+    color: #00b8b8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 0 5px 4px rgba(129, 129, 129, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  .nav a:hover{
+    /* background-color: #fff; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+  ;}
+  .nav a::before{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav a:hover::before{
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+.dropdown-menu {
+  z-index: 3;
+    display: none;
+    position: absolute;
+    background-color: #f3f3f3;
+    padding: 10px ;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li {
+    margin: 5px 0;
+  }
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+@media only screen and(max-width:600px){
+  .nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav a{
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+  /* Main content styles */
+  main {
+    padding: 5rem;
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    
+  }
+  section {
+    flex: 1;
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+    /* overflow-y: scroll; */
+    padding: 20px;
+    margin-top: 0;
+    border-left: 1px solid #ccc;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #f9f9f9;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    background-color: #333;
+    color: #fff;
+  }
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+  }
+  .card i{
+    font-size: 3rem;
+    color: #00b8b8;
+
+  }

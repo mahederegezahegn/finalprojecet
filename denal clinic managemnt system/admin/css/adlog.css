@@ -1,0 +1,101 @@
+/* CSS */
+
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-position: center;
+  background-image: url('images/hall.jpg');
+  font-family: Arial, sans-serif;
+}
+
+/* Apply styles to the login container */
+.login {
+  /* background-color: #ffffff; */
+  border-radius: 10px;
+  background: rgba(24, 21, 21, 0.418);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 10rem auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+/* Apply styles to the login header */
+.login h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Apply styles to the form inputs */
+.login input[type="text"],
+.login input[type="password"] {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) inset;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+padding: 10px;
+  width: 100%;
+}
+
+/* Apply styles to the form submit button */
+.login input[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Apply styles to the error message */
+.login .error {
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* Apply responsive styles */
+@media screen and (max-width: 480px) {
+  .login {
+    margin: 20px auto;
+    max-width: none;
+    padding: 10px;
+  }
+  
+  .login h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"],
+  .login input[type="submit"] {
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 8px;
+  }
+  
+  .login .error {
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 8px;
+  }
+}

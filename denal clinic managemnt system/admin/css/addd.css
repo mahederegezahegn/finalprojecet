@@ -1,0 +1,71 @@
+  /* Main content styles */
+  main {
+    /* margin-top: 60px; */
+    max-width: 1200px;
+    margin: 1rem auto 0 auto;
+    display: flex;
+  }
+  
+  section {
+    flex: 1;
+    background: rgb(46,145,188);
+background: linear-gradient(180deg, rgba(46,145,188,1) 4%, rgba(95,124,171,1) 11%);
+    padding: 20px;
+    border-left: 1px solid #ccc;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+
+  
+form {
+  background-image: url('images/blob-scene-haikei.png');
+    max-width: 600px;
+    /* margin: 50px auto; */
+    padding: 20px;
+    background-color: #f3f3f3;
+    color:#ccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }

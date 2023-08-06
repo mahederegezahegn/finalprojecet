@@ -1,0 +1,117 @@
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: #f3f3f3;
+  }
+
+  .progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 0.5s;
+  }
+body {
+	font-family: sans-serif;
+	background-image:url('images/stacked-steps-haikei.png');
+    background-size:cover;
+    background-position: center;
+	background-repeat: no-repeat;
+  }
+.main{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-top: 5rem;
+
+ 
+}
+.img{
+	width: 20rem;
+	height:30rem;
+	/* border: 1px solid black; */
+	background-image:url('images/Secure.png');
+	background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+  .container {
+	/* border:1px solid black; */
+	max-width: 600px;
+	/* margin: 5rem auto;  */
+	padding: 1rem 5rem;
+	background-image:url('images/blob-scene-haikei.png');
+	background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+.error{
+	background-color: rgb(230, 14, 14);
+	padding: 1rem 3rem;
+	color: white;
+margin: 1rem 3rem;
+border-radius: 2rem;
+}
+  .form {
+	display: none;
+  }
+
+  .form.active {
+	display: block;
+  }
+
+  .tabs {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+  }
+  label{
+	color:#fff;
+  }
+  .tab {
+	margin: 0 10px;
+	padding: 10px;
+	background-color: #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  h2 {
+	color: #fff;
+  }
+  .tab.active {
+	background-color: #fff;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="adress"],
+  input[type="password"],
+  input[type="date"],
+  select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+	background-color: #3e8e41;
+  }
